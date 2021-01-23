@@ -9,6 +9,7 @@
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
+    "test:watchAll": "jest --watchAll",
     "lint:css": "stylelint **/*.{js,ts,tsx}",
     "format": "prettier --write **/*.{js,ts,tsx}",
     "test-all": "npm run lint && npm run type-check && npm run test",

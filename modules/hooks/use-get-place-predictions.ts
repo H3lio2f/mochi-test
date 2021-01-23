@@ -1,10 +1,10 @@
 import { hasPath } from 'ramda';
 import { useEffect, useState } from 'react';
-
 import DEFAULT_CONFIG from '../constants/config';
 import { AutocompletePrediction, AutocompletionRequest } from '../typescript';
 import useIsMounted from './use-is-mounted';
 import useScript from './use-script';
+
 
 export type UseGetPlacePredictions = (
   request: AutocompletionRequest,
