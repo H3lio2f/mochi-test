@@ -2,7 +2,7 @@
 import { act } from '@testing-library/react-hooks';
 
 describe('hooks/useScript', () => {
-  test('should load script once the component mounted', () => {
+  test('should load script once when the component mounted', () => {
     const loadScript = jest.fn();
     act(() => {
       loadScript();
